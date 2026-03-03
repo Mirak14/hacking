@@ -1,64 +1,0 @@
-=== NEBULOS ELITE SYSTEM REPORT ===
-
---- SISTEMA ---
-OS: Windows 11 | User: karim
-Arquitectura: AMD64 | Procesador: Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
-
---- WIFI ---
-SSID: Redmi Note 14 | PWD: 123456789
-SSID: VISITAS | PWD: VioletaParra9
-SSID: WIFI_ROKA | PWD: C@simir@_12
-SSID: MIWIFI_ROKA | PWD: C@simir@12
-
---- NAVEGADOR ---
-[PASS] URL: android://dKranQB7c5H2WKHJF5rygyRh5-vrf7ZVODNX_XoJgJ5YncxgwK7vbH1kZrYCLmv68MEawe5nFA-sfKQk9mrbFQ==@tv.twitch.android.app/ | U: karim_bmx_12 | P: >j6re
-[PASS] URL: https://www.amazon.com/ | U: caixavisa1@gmail.com | P: OVFvzeWϢ#L
-[PASS] URL: android://F-MgnQQNdzG8_k33ywFsHPbwuUwXVg2IvMQyMZUjlgWcvPgRMbLxs0djR0lyndx9JSyW4uW0aFjKrj9gc_KcTw==@com.venteprivee/ | U: karimbernal744@gmail.com | P: LC;=
-[PASS] URL: android://79xEc7TXh3cNp5rV9kci8i6AYyfPq8BmRomGIiNpLtXCAx3qy5RICnOQLbMJaQ1UNGV_N7sSK1dLpTmEZQ8csg==@com.spotify.music/ | U: karimbernal744@gmail.com | P: ZR^c
-[PASS] URL: https://parchesybordados.com/ | U: karimbernal744@gmail.com | P: 0BYa/
-[PASS] URL: android://ssd-BgGaoLzK25oiAZf2PjDdS5nGtWGZkKbrpCb6ES5KgIjfDhVnPzqyeAKVDEIn6i0NN27ZLyptq7HjriBQ_Q==@com.spotify.music/ | U: karimbernal744@gmail.com | P: e+T<\h	
-[PASS] URL: https://www.amazon.es/ | U: kbahli@fpconstruccion.es | P: 	4>>)
-[PASS] URL: android://zQxb6hXv1MJiC1Yyotdhi8HP-y7fwPcOLwPOWTwWKpP2VXcbsuIiI4iJ1KV0Dz3LzVsUuKJmYCBIUAxnsPB9FA==@com.facebook.katana/ | U: 602001914 | P: EAK
-[PASS] URL: android://rF2BMtDX6N5uymxwf2Syvpr7kW1gTUHhATVyF8dhrmRE8mvmWQ1KwSOvcxAEnpM52kL_VrS3omH3kq-I6N6SRQ==@com.paypal.android.p2pmobile/ | U: karimbernal744@gmail.com  | P: ΪEsbZֵG
-[PASS] URL: android://Bw3hNtrp5Sn7D7DIF6OWgD3IZqeVbqp8S_6b2G0RuT6d2SCkbB_mIbKDUfjiesJmEJ0sglEw2YdBMseEza5fxQ==@com.hihonor.filemanager/ | U: casa | P: "O埾nJM
-[PASS] URL: android://PT0UKPcXrqppU4WcgIqd3BJ87UXTBo-fvtJ0P3MZs4mAqYN_1O7dJL6UHRiy6VtnPNOAEUG5Qi8ZwwutW3-5Dg==@com.yoigo.miyoigo/ | U: 686822299 | P: ŬOy:{
-[PASS] URL: android://qgVkQYUMOtblfRCfxVg2WRfAz7gIreCwsxjcNxmkTNRAXIBc5qTqRv38xx53gVex386bZBdFb6Jrs8J3ruEHGA==@com.wallapop/ | U: karimbernal744@gmail.com | P: p}&w(?
-[PASS] URL: android://QtMlZrr0oLWnX_kKTNgEECWN1wpk6DJ_58qiRntQggrOcBiIYOq9h_QcX9tjmJ0paae4PCg1YQLjTIYtDpUo3w==@com.md.mcdonalds.gomcdo/ | U: foyix41377@xcmexico.com | P: v ¡VɈ
-[PASS] URL: https://www.elportaldelalumno.com/Login/ | U: 25209914M | P: \8))
-[PASS] URL: http://4x4.novatest.es/Login/ | U: 25209914m | P: ՇKp-;3
-[PASS] URL: android://LrbOOjNeNlVAQZfyugerw3z8Of50v-CTDtb120e4hCDW-q_gxFRxZZg4otXQK256kABuriPwzhP2E-UIV3nDcg==@com.getyugo.app/ | U: karimbernal744@gmail.com | P: Ur4]
-[PASS] URL: https://www.paypal.com/signin | U: karimbernal744@gmail.com | P: wJˎ!YW"
-[PASS] URL: https://mobile.twitter.com/i/flow/signup | U: +34622950185 | P: W1~7B
-[PASS] URL: https://login.microsoftonline.com/ | U: kbahli@fpconstruccion.es | P: W(Q
-wus
-[PASS] URL: android://P4sNKV5emOBTn9rb3q3BfsgHde1sUpMd_q5uQQyb5E2GlAjF0N4KX5y6yASx0v5e_UvJHhgKVH7_1YdJBzV60w==@com.comuto/ | U: rosaberhli@gmail.com | P: 9;|y
-[PASS] URL: https://www.instagram.com/ | U: _.karimass._12 | P: |׿ЦƄMZ
-[PASS] URL: android://2Q82TiAojrruN4q56Ttwb9pRQAkZ73TAEh2r0iatwKG7k2pb9_aRB1c9XJKShM5Dyc-tFk3cdk7gxb7FTpaKrw==@com.spotify.music/ | U: karimbernal744@gmail.com | P: r5Gz{q
-[PASS] URL: android://k9SUC7rwO3PqSLK7Wu24sbU8iJyoMHv9gHDqkIe1guUkMOH3rlO3DZEP8MYEMUypjpzjoKCpQ6yv9URTqHGEiw==@com.muba.anuncios/ | U: karimbernal744@gmail.com | P: 5QMlyz]
-[PASS] URL: android://xyVdUYQypFro-2KN5AC4evS70CEHT5wmYbPCpr86i4545G-lLOYj0XdPCeksycyjus9thSuBFw7WWXtuPd73_Q==@com.ryanair.cheapflights/ | U: karimbernal744@gmail.com | P: >"S.HL
-[PASS] URL: android://4UXqR24Y3MMdVluwWPwp1_dQrP2y66PbLZrOGeS7DiCfp-PkD03OpgcofO-kRSVAK3uZ0J-cRMP2YKL5QJtQ5g==@com.zengge.wifi/ | U: karimbernal744@gmail.com  | P: NCw1)t(
-[PASS] URL: https://www.estilomma.com/ | U: Karim bahli bernal | P: D􋲃`&kF
-[PASS] URL: https://sede.educacion.gob.es/sede/login/inicio.jjsp | U: 25209914M | P: Uē]Np
-[PASS] URL: https://johnpyesubastas.es/Account/LogOn | U: rosaberhli@gmail.com | P: adkՂǺ7
-[PASS] URL: https://www.johnpyesubastas.es/Account/LogOn | U: rosaberhli@gmail.com | P: P!:>
-
---- KEYLOGGER ---
-
-
-
-
- [caps_lock] definitivo ahora si que siiiiiiii vamos aver que `a [backspace] pasa.................
-............................................................
-
-
-
-.........................................................
-.
-.
-.
-.
-..
-
- [shift] nada [caps_lock]  sigue igualllll, mira las contraseñas te las paso para que las veas el g [backspace] formato y las arregles.... [cmd]  [shift] S [shift] 
-
- [ctrl_l]  [shift] Tambien quiero que añadas otra pestaña con algunas iamgenes o algo tocho mas  [backspace] . pero primero soluciona correctamnete las passwords
