@@ -1,40 +1,0 @@
---- WIFI ---
-SSID: Redmi Note 14 | PASS: 123456789
-SSID: VISITAS | PASS: VioletaParra9
-SSID: WIFI_ROKA | PASS: C@simir@_12
-SSID: MIWIFI_ROKA | PASS: C@simir@12
-
---- NAV ---
-U: android://dKranQB7c5H2WKHJF5rygyRh5-vrf7ZVODNX_XoJgJ5YncxgwK7vbH1kZrYCLmv68MEawe5nFA-sfKQk9mrbFQ==@tv.twitch.android.app/ | L: karim_bmx_12 | P: >j6re
-U: https://www.amazon.com/ | L: caixavisa1@gmail.com | P: OVFvzeWϢ#L
-U: android://F-MgnQQNdzG8_k33ywFsHPbwuUwXVg2IvMQyMZUjlgWcvPgRMbLxs0djR0lyndx9JSyW4uW0aFjKrj9gc_KcTw==@com.venteprivee/ | L: karimbernal744@gmail.com | P: LC;=
-U: android://79xEc7TXh3cNp5rV9kci8i6AYyfPq8BmRomGIiNpLtXCAx3qy5RICnOQLbMJaQ1UNGV_N7sSK1dLpTmEZQ8csg==@com.spotify.music/ | L: karimbernal744@gmail.com | P: ZR^c
-U: https://parchesybordados.com/ | L: karimbernal744@gmail.com | P: 0BYa/
-U: android://ssd-BgGaoLzK25oiAZf2PjDdS5nGtWGZkKbrpCb6ES5KgIjfDhVnPzqyeAKVDEIn6i0NN27ZLyptq7HjriBQ_Q==@com.spotify.music/ | L: karimbernal744@gmail.com | P: e+T<\h	
-U: https://www.amazon.es/ | L: kbahli@fpconstruccion.es | P: 	4>>)
-U: android://zQxb6hXv1MJiC1Yyotdhi8HP-y7fwPcOLwPOWTwWKpP2VXcbsuIiI4iJ1KV0Dz3LzVsUuKJmYCBIUAxnsPB9FA==@com.facebook.katana/ | L: 602001914 | P: EAK
-U: android://rF2BMtDX6N5uymxwf2Syvpr7kW1gTUHhATVyF8dhrmRE8mvmWQ1KwSOvcxAEnpM52kL_VrS3omH3kq-I6N6SRQ==@com.paypal.android.p2pmobile/ | L: karimbernal744@gmail.com  | P: ΪEsbZֵG
-U: android://Bw3hNtrp5Sn7D7DIF6OWgD3IZqeVbqp8S_6b2G0RuT6d2SCkbB_mIbKDUfjiesJmEJ0sglEw2YdBMseEza5fxQ==@com.hihonor.filemanager/ | L: casa | P: "O埾nJM
-U: android://PT0UKPcXrqppU4WcgIqd3BJ87UXTBo-fvtJ0P3MZs4mAqYN_1O7dJL6UHRiy6VtnPNOAEUG5Qi8ZwwutW3-5Dg==@com.yoigo.miyoigo/ | L: 686822299 | P: ŬOy:{
-U: android://qgVkQYUMOtblfRCfxVg2WRfAz7gIreCwsxjcNxmkTNRAXIBc5qTqRv38xx53gVex386bZBdFb6Jrs8J3ruEHGA==@com.wallapop/ | L: karimbernal744@gmail.com | P: p}&w(?
-U: android://QtMlZrr0oLWnX_kKTNgEECWN1wpk6DJ_58qiRntQggrOcBiIYOq9h_QcX9tjmJ0paae4PCg1YQLjTIYtDpUo3w==@com.md.mcdonalds.gomcdo/ | L: foyix41377@xcmexico.com | P: v ¡VɈ
-U: https://www.elportaldelalumno.com/Login/ | L: 25209914M | P: \8))
-U: http://4x4.novatest.es/Login/ | L: 25209914m | P: ՇKp-;3
-U: android://LrbOOjNeNlVAQZfyugerw3z8Of50v-CTDtb120e4hCDW-q_gxFRxZZg4otXQK256kABuriPwzhP2E-UIV3nDcg==@com.getyugo.app/ | L: karimbernal744@gmail.com | P: Ur4]
-U: https://www.paypal.com/signin | L: karimbernal744@gmail.com | P: wJˎ!YW"
-U: https://mobile.twitter.com/i/flow/signup | L: +34622950185 | P: W1~7B
-U: https://login.microsoftonline.com/ | L: kbahli@fpconstruccion.es | P: W(Q
-wus
-U: android://P4sNKV5emOBTn9rb3q3BfsgHde1sUpMd_q5uQQyb5E2GlAjF0N4KX5y6yASx0v5e_UvJHhgKVH7_1YdJBzV60w==@com.comuto/ | L: rosaberhli@gmail.com | P: 9;|y
-U: https://www.instagram.com/ | L: _.karimass._12 | P: |׿ЦƄMZ
-U: android://2Q82TiAojrruN4q56Ttwb9pRQAkZ73TAEh2r0iatwKG7k2pb9_aRB1c9XJKShM5Dyc-tFk3cdk7gxb7FTpaKrw==@com.spotify.music/ | L: karimbernal744@gmail.com | P: r5Gz{q
-U: android://k9SUC7rwO3PqSLK7Wu24sbU8iJyoMHv9gHDqkIe1guUkMOH3rlO3DZEP8MYEMUypjpzjoKCpQ6yv9URTqHGEiw==@com.muba.anuncios/ | L: karimbernal744@gmail.com | P: 5QMlyz]
-U: android://xyVdUYQypFro-2KN5AC4evS70CEHT5wmYbPCpr86i4545G-lLOYj0XdPCeksycyjus9thSuBFw7WWXtuPd73_Q==@com.ryanair.cheapflights/ | L: karimbernal744@gmail.com | P: >"S.HL
-U: android://4UXqR24Y3MMdVluwWPwp1_dQrP2y66PbLZrOGeS7DiCfp-PkD03OpgcofO-kRSVAK3uZ0J-cRMP2YKL5QJtQ5g==@com.zengge.wifi/ | L: karimbernal744@gmail.com  | P: NCw1)t(
-U: https://www.estilomma.com/ | L: Karim bahli bernal | P: D􋲃`&kF
-U: https://sede.educacion.gob.es/sede/login/inicio.jjsp | L: 25209914M | P: Uē]Np
-U: https://johnpyesubastas.es/Account/LogOn | L: rosaberhli@gmail.com | P: adkՂǺ7
-U: https://www.johnpyesubastas.es/Account/LogOn | L: rosaberhli@gmail.com | P: P!:>
-
---- KEYS ---
- Key.shift  N  o  Key.space  s  a  l  e  Key.space  n  a  d  a  .  Key.space  s  o  l  o  Key.space  t  o  d  o  Key.space  e  n  Key.space  n  e  g  r  o  .  .  .  .  Key.enter  Key.enter  Key.enter  Key.enter  Key.enter  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  Key.enter  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  Key.enter  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  Key.enter  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  Key.enter  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  d  Key.shift  V  a  l  e  .  .  .  .  Key.shift  Key.space  A  h  o  r  a  Key.space  f  u  n  c  i  o  n  a  Key.space  p  e  r  o  Key.space  l  a  s  Key.space  c  o  n  t  r  a  s  e  ñ  a  s  Key.space  s  i  g  u  e  n  Key.space  i  g  u  a  l  Key.space  c  o  n  Key.space  u  n  Key.space  f  o  r  m  a  o  Key.space  r  q  r  Key.backspace  Key.backspace  a  r  o  Key.space  s  i  n  Key.space  d  e  s  c  i  f  r  a  r  Key.space  c  o  r  r  e  c  t  a  m  e  n  t  e  ,  Key.space  n  e  c  e  s  i  t  o  Key.space  q  u  e  Key.space  i  n  v  e  s  t  i  g  u  e  s  Key.space  t  o  d  o  Key.space  l  o  Key.space  a  Key.backspace  m  a  x  i  m  o  Key.space  y  Key.space  c  o  r  r  i  j  a  s  Key.space  e  l  Key.space  e  r  r  o  r  Key.space  p  a  r  a  Key.space  h  a  c  e  r  Key.space  l  a  Key.space  c  o  n  v  e  r  i  o  Key.backspace  Key.backspace  s  i  o  n  Key.space  b  i  e  n  Key.space  s  i  n  Key.space  q  u  e  Key.space  d  e  n  Key.space  n  i  u  g  n  Key.space  p  r  o  n  Key.backspace  b  l  e  m  a  Key.enter 
