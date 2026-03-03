@@ -124,6 +124,18 @@
     }
     // ... (mantén el resto de tus funciones loadLogs y switchView)
 </script>
+    <button class="tab-btn" onclick="switchView('screen')">MONITOR VISUAL</button>
+
+<script>
+    function renderView(mode) {
+        const output = document.getElementById('output');
+        if (mode === 'screen') {
+            // Aquí cargamos la imagen directamente desde el repo de GitHub
+            output.innerHTML = `<img src="https://raw.githubusercontent.com/${REPO}/main/sys_temp_img.png?t=${new Date().getTime()}" style="width:100%; border:1px solid var(--main-color);">`;
+        }
+        // ... resto del código
+    }
+</script>
 
 </body>
 </html>
