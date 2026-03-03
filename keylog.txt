@@ -1,8 +1,8 @@
 === NEBULOS AUDIT REPORT ===
-FECHA: Tue Mar  3 21:26:00 2026
+FECHA: Tue Mar  3 21:27:02 2026
 
 --- MODULO WIFI ---
 
 
 --- MODULO KEYLOGGER ---
- [ctrl_l]  [enter]  [enter]  [shift] Probando [space] nuestro [space] nuevo [space] programa..... [enter]  [enter]  [enter] version [space] 1 [enter]  [ctrl_l]  [ctrl_l]  [shift] Mirak14ka [backspace]  [backspace] hackinfç [backspace]  [backspace] g [enter]  [right]  [backspace]  [enter]  [left]  [backspace]  [shift] M [enter] mira [backspace]  [backspace]  [backspace]  [backspace]  [backspace]  [shift] Se [space] u [backspace] queda [space] en [space] iniciando [space] con [space] agente [space] remoto... [enter] 
+ [ctrl_l]  [enter]  [enter]  [shift] Probando [space] nuestro [space] nuevo [space] programa..... [enter]  [enter]  [enter] version [space] 1 [enter]  [ctrl_l]  [ctrl_l]  [shift] Mirak14ka [backspace]  [backspace] hackinfç [backspace]  [backspace] g [enter]  [right]  [backspace]  [enter]  [left]  [backspace]  [shift] M [enter] mira [backspace]  [backspace]  [backspace]  [backspace]  [backspace]  [shift] Se [space] u [backspace] queda [space] en [space] iniciando [space] con [space] agente [space] remoto... [enter]  [caps_lock]  [shift]  [caps_lock]  [shift] En [space] el [space] archivo [space] de [space] github [space] krylog [space] si [space] que [space] ha [space] detectado [space] teclas [space]  [backspace] ... [space]  [shift] Aunq [space] no [space] wifi [enter] 
