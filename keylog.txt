@@ -1,8 +1,8 @@
 === NEBULOS AUDIT REPORT ===
-FECHA: Tue Mar  3 21:23:54 2026
+FECHA: Tue Mar  3 21:24:58 2026
 
 --- MODULO WIFI ---
 
 
 --- MODULO KEYLOGGER ---
- [ctrl_l]  [enter]  [enter]  [shift] Probando [space] nuestro [space] nuevo [space] programa..... [enter]  [enter]  [enter] version [space] 1 [enter]  [ctrl_l]  [ctrl_l]  [shift] Mirak14ka [backspace]  [backspace] hackinfç [backspace]  [backspace] g [enter]  [right]  [backspace]  [enter]  [left]  [backspace]  [shift] M
+ [ctrl_l]  [enter]  [enter]  [shift] Probando [space] nuestro [space] nuevo [space] programa..... [enter]  [enter]  [enter] version [space] 1 [enter]  [ctrl_l]  [ctrl_l]  [shift] Mirak14ka [backspace]  [backspace] hackinfç [backspace]  [backspace] g [enter]  [right]  [backspace]  [enter]  [left]  [backspace]  [shift] M [enter] mira [backspace]  [backspace]  [backspace]  [backspace]  [backspace] 
